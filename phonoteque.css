@@ -3,7 +3,7 @@ body
 	margin:0px;
 	padding:0px;
 	background-size:cover;
-	background-image:url("ressources/soirée.jpg");
+	background-image:url("ressources/afrique.jpg");
 }
 
 /*Acceuil*/
@@ -50,15 +50,14 @@ body
 	.equipe_droite img{
 		max-width:290px;
 		margin:30px;
-		border-radius: 50%;
-		box-shadow:0px 7px 11px 3px rgba(0,0,0,0.3);
+	
 	}
 
 	.equipe_gauche img{
 		max-width:290px;
 		margin:30px;
-		border-radius: 50%;
-		box-shadow:0px 7px 11px 3px rgba(0,0,0,0.3);
+		
+		
 	}
 	.text_equipier{
 		display:flex;

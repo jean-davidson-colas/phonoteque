@@ -1,11 +1,22 @@
 
 .PR
 {
+	color: white;
 	margin:0px;
 	padding:0px;
 	background-size:cover;
 	background-image:url(ressources/soirée2.jpg);
-	font-family: "nationale","nationale-regular","Helvetica",sans-serif;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.PR2
+{
+	color: black;
+	margin:0px;
+	padding:0px;
+	background-size:cover;
+	background-image:url(ressources/soirée2.jpg);
+	font-family: 'Permanent Marker', cursive;
 }
 
 .Hip-Hop
@@ -15,13 +26,7 @@
 	background-size:cover;
 	background-image:url(ressources/images/mac.jpg);
 	background-size:cover;
-}
-.Clubbing
-{	margin:0px;
-	padding:0px;
-	background-size:cover;
-	background-image:url(ressources/images/boule.jpg);
-	background-size:cover;
+	font-family: 'Kaushan Script', cursive;
 }
 
 /*Acceuil*/
@@ -133,11 +138,29 @@
 		height:auto;
 }
 
-.equipe_gauche img{
+.equipe_gauche img
+{
+	
+		border-radius: 5%;
 		max-width:135px;
 		margin:20px;
-		box-shadow:0px 7px 11px 3px rgba(0,0,0,0.10);
+		box-shadow:0px 7px 11px 3px rgba(0,0,0,0.10);	
 }
+
+
+.equipe_gauche img:hover
+{
+	
+	max-width:135px;
+	-webkit-transform: scale(8);
+	transform: scale(2);
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+
 
 .spacer{
 	margin-top:50px;
@@ -151,7 +174,7 @@ header
   	justify-content: space-around;
   	align-items: center;
 	background-image: linear-gradient(blue,orange);
-	height: 60px;
+	height: 30px;
 	width: 100%;
 }
 
@@ -163,7 +186,7 @@ header
   	justify-content: space-around;
   	align-items: center;
 	background-image: linear-gradient(darkblue,grey,white);
-	height: 60px;
+	height: 30px;
 	width: 100%;
 }
 .club
@@ -174,8 +197,30 @@ header
   	justify-content: space-around;
   	align-items: center;
 	background-image: linear-gradient(darkblue,violet,pink);
-	height: 60px;
+	height: 30px;
 	width: 100%;
+}
+.g3
+	{
+		display: flex;
+		flex-direction: column;
+		width: 500px;
+		text-align: center;
+		font-family: 'Kaushan Script', cursive;
+		margin: auto;
+		color: white;
+		
+	}
+
+
+article
+{
+	margin-top:30px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	border:5px 5px 5px solid black;
 }
 
 ul {
@@ -205,6 +250,6 @@ li a
   	position: fixed;
   	bottom: 0;
 	background-image: linear-gradient(orange,blue);
-	height: 60px;
+	height: 30px;
 	width: 100%;
 }

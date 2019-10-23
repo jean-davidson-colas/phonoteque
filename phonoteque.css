@@ -148,16 +148,6 @@
 }
 
 
-.equipe_gauche img:hover
-{
-	
-	max-width:135px;
-	-webkit-transform: scale(8);
-	transform: scale(2);
-	z-index: 1;
-	position: absolute;
-	overflow: hidden;
-}
 
 
 
@@ -204,6 +194,7 @@ header
 	{
 		display: flex;
 		flex-direction: column;
+
 		width: 500px;
 		text-align: center;
 		font-family: 'Kaushan Script', cursive;
@@ -211,6 +202,7 @@ header
 		color: white;
 		
 	}
+
 
 
 article

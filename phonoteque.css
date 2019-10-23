@@ -144,12 +144,18 @@
 		border-radius: 5%;
 		max-width:135px;
 		margin:20px;
-		box-shadow:0px 7px 11px 3px rgba(0,0,0,0.10);	
+		box-shadow:0px 7px 11px 3px rgba(0,0,0,0.10);
+		opacity:1;
+  		-webkit-animation: APP 8s; /* Chrome, Safari, Opera */ 
+    	animation: APP 8s;	
 }
 
 
-
-
+audio
+{
+	-webkit-animation: APP 8s;
+	animation: APP 8s;
+}
 
 
 .spacer{
@@ -244,4 +250,13 @@ li a
 	background-image: linear-gradient(orange,blue);
 	height: 30px;
 	width: 100%;
+}
+@-webkit-keyframes APP {
+ 0% {opacity: 0;}
+ 100% {opacity:1;}
+}
+/* Standard syntax */
+@keyframes APP {
+ 0% {opacity: 0;}
+ 100% {opacity:1;}
 }

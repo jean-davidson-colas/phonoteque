@@ -1,0 +1,262 @@
+
+.PR
+{
+	color: white;
+	margin:0px;
+	padding:0px;
+	background-size:cover;
+	background-image:url(ressources/soirée2.jpg);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.PR2
+{
+	color: black;
+	margin:0px;
+	padding:0px;
+	background-size:cover;
+	background-image:url(ressources/soirée2.jpg);
+	font-family: 'Permanent Marker', cursive;
+}
+
+.Hip-Hop
+{
+	margin:0px;
+	padding:0px;
+	background-size:cover;
+	background-image:url(ressources/images/mac.jpg);
+	background-size:cover;
+	font-family: 'Kaushan Script', cursive;
+}
+
+/*Acceuil*/
+
+.page1{
+	
+	font-size: 1.45rem;
+    line-height: 1.5;
+	text-align:center;
+	color:white;
+}
+	
+.like{
+	backgound:transparent;
+}
+
+.spacer1{
+	margin-top:250px;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #536eb2;
+    border-radius: 8px;
+    background: #89b5ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#89b5ff), to(#536eb2));
+    background: -moz-linear-gradient(top, #89b5ff, #536eb2);
+    background: linear-gradient(to bottom, #89b5ff, #536eb2);
+    -webkit-box-shadow: #8fbcff 0px 0px 40px 0px;
+    -moz-box-shadow: #8fbcff 0px 0px 40px 0px;
+    box-shadow: #8fbcff 0px 0px 40px 0px;
+    text-shadow: #3c4f7f 1px 1px 1px;
+    font: normal normal bold 24px times new roman;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,button:focus {
+    border: 1px solid ##779dfe;
+    background: #a4d9ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a4d9ff), to(#6484d6));
+    background: -moz-linear-gradient(top, #a4d9ff, #6484d6);
+    background: linear-gradient(to bottom, #a4d9ff, #6484d6);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #536eb2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#536eb2), to(#536eb2));
+    background: -moz-linear-gradient(top, #536eb2, #536eb2);
+    background: linear-gradient(to bottom, #536eb2, #536eb2);
+}
+
+
+
+/* style Afrique*/ 
+
+.afrique{
+	width:20px;
+	height:auto;
+
+}
+	
+#musique{
+
+	padding-top:5px;
+		font-family: GeosansLight;
+		background-color:transparent;
+		padding-left: 200px;
+		color: #FFFFFF;
+}
+
+.style_musique{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		font-size:2.5em;
+}
+.style_musique2{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		font-size:2.5em;
+}
+
+.style_musique3{
+		color: white;
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		font-size:2.5em;
+}
+.style_musique4{
+	color: white;
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		font-size:2.5em;
+}
+
+.equipe_gauche{
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		margin-right:auto;
+		width:100%;
+		height:auto;
+}
+
+.equipe_gauche img
+{
+	
+		border-radius: 5%;
+		max-width:135px;
+		margin:20px;
+		box-shadow:0px 7px 11px 3px rgba(0,0,0,0.10);
+		opacity:1;
+  		-webkit-animation: APP 8s; /* Chrome, Safari, Opera */ 
+    	animation: APP 8s;	
+}
+
+
+audio
+{
+	-webkit-animation: APP 8s;
+	animation: APP 8s;
+}
+
+
+.spacer{
+	margin-top:50px;
+}
+
+header
+{
+	font-size: 20px;
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	align-items: center;
+	background-image: linear-gradient(blue,orange);
+	height: 30px;
+	width: 100%;
+}
+
+.HIP
+{
+	font-size: 20px;
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	align-items: center;
+	background-image: linear-gradient(darkblue,grey,white);
+	height: 30px;
+	width: 100%;
+}
+.club
+{
+	font-size: 20px;
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	align-items: center;
+	background-image: linear-gradient(darkblue,violet,pink);
+	height: 30px;
+	width: 100%;
+}
+.g3
+	{
+		display: flex;
+		flex-direction: column;
+
+		width: 500px;
+		text-align: center;
+		font-family: 'Kaushan Script', cursive;
+		margin: auto;
+		color: white;
+		
+	}
+
+
+
+article
+{
+	margin-top:30px;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	border:5px 5px 5px solid black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+	
+  display: inline-flex;
+}
+
+li a
+{
+	color: white;
+}
+
+	footer
+{
+	color: white;
+	font-size: 20px;
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around;
+  	align-items: center;
+  	position: fixed;
+  	bottom: 0;
+	background-image: linear-gradient(orange,blue);
+	height: 30px;
+	width: 100%;
+}
+@-webkit-keyframes APP {
+ 0% {opacity: 0;}
+ 100% {opacity:1;}
+}
+/* Standard syntax */
+@keyframes APP {
+ 0% {opacity: 0;}
+ 100% {opacity:1;}
+}

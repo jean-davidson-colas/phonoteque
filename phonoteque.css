@@ -1,4 +1,8 @@
-
+@font-face {
+ font-family: "Pixelmania.ttf";
+ src: url("Ressources/police/Pixelmania.ttf") format("TrueType")
+        ;
+}
 .PR
 {
 	color: white;
@@ -31,7 +35,7 @@ a:hover
   color: tomato;
 }
 
-#menuToggle
+#menu2
 {
   display: block;
   position: relative;
@@ -42,7 +46,7 @@ a:hover
   user-select: none;
 }
 
-#menuToggle input
+#menu2 input
 {
   display: block;
   width: 40px;
@@ -58,7 +62,7 @@ a:hover
 }
 
 
-#menuToggle span
+#menu2 span
 {
   display: block;
   width: 33px;
@@ -74,18 +78,18 @@ a:hover
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
+#menu2 span:first-child
 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
+#menu2 span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
 
 
-#menuToggle input:checked ~ span
+#menu2 input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
@@ -93,14 +97,14 @@ a:hover
 }
 
 
-#menuToggle input:checked ~ span:nth-last-child(3)
+#menu2 input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 
-#menuToggle input:checked ~ span:nth-last-child(2)
+#menu2 input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
@@ -129,12 +133,19 @@ a:hover
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
+
+#menu2 input:checked ~ ul
 {
   transform: none;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
 .Hip-Hop
 {
@@ -146,7 +157,6 @@ a:hover
 	font-family: 'Kaushan Script', cursive;
 }
 
-/*Acceuil*/
 
 .page1{
 	
@@ -201,7 +211,7 @@ a:hover
 
 
 
-/* style Afrique*/ 
+ 
 
 .afrique{
 	width:20px;
@@ -218,11 +228,28 @@ a:hover
 		color: #FFFFFF;
 }
 
+h1
+{
+	margin-top: 3%;
+}
 .style_musique{
 		display:flex;
 		flex-direction:row;
 		justify-content:center;
 		font-size:2.5em;
+		font-family: "Pixelmania.ttf";
+		color: white;
+		position: relative;
+		text-transform: uppercase;
+		font-size: 2em;
+		letter-spacing: 4px;
+		overflow: hidden;
+		background: linear-gradient(90deg, #000, #fff, #000);
+		background-repeat: no-repeat;
+		background-size: 80%;
+		animation: animate 4s linear 1;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 .style_musique2{
 		display:flex;
@@ -332,7 +359,7 @@ article
  0% {opacity: 0;}
  100% {opacity:1;}
 }
-/* Standard syntax */
+
 @keyframes APP {
  0% {opacity: 0;}
  100% {opacity:1;}
